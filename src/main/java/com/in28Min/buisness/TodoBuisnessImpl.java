@@ -13,8 +13,6 @@ public class TodoBuisnessImpl {
 	this.todoService=todoService;
 	}
 	
-	
-	
 	public List<String> retrieveTodosRelatedToSpring(String user) {
 		List<String> list=new ArrayList<String>();
 		List<String> retriveTodos = todoService.retriveTodos(user);
